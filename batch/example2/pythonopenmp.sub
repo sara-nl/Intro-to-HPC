@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --partition=shared
+#SBATCH --job-name="python"
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
+#SBATCH --time=00:10:00
+#SBATCH --partition=normal
+#SBATCH --output=python_%j.out
+#SBATCH --error=python_%j.err
+
+module load 2021
+module load SciPy-bundle/2021.05-foss-2021a
+
+echo "OpenMP parallelism"
+echo
+
+for ncores in {1..4}
+
+do
+  export OMP_NUM_THREADS=$ncores
+  echo "CPUS: " $OMP_NUM_THREADS
+  python linalg2.py
+  echo "DONE "
+
+done
