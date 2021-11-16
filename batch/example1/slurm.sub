@@ -12,7 +12,7 @@ whoami
 echo
 
 echo "Where am I?"
-srun hostname
+hostname
 echo
 
 sleep 120
