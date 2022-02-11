@@ -1,4 +1,4 @@
-# SURF Research Bootcamp Hands-on introduction using a supercomputer
+# SURF Hands-on introduction using a supercomputer
 
 Training material for the Hands-on introduction using a supercomputer
 
