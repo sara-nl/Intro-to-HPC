@@ -2,6 +2,6 @@
 
 Training material for the Hands-on introduction using a supercomputer
 
-Contains presentation and excercises for the "Hands-on introduction using a supercomputer" course.  
-14:00-15:25 Wednesday, November 17<sup>th</sup> 2021.
+Contains presentation and excercises for the "First steps in the HPC environment" course.  
+10:00-14:00hs CET 15-FEB-2022. 
 
