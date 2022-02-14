@@ -3,7 +3,6 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
 #SBATCH --time=00:01:00
-#SBATCH --partition=normal
 #SBATCH --output=serial_%j.out
 #SBATCH --error=serial_%j.err
 
@@ -15,7 +14,7 @@ echo "Where am I?"
 hostname
 echo
 
-sleep 120
+sleep 45
 
 date
 echo "DONE"
